@@ -29,8 +29,8 @@ Agora, como exemplo, podemos criar uma função simples de soma com dois parâme
 # * ( multiplicação)
 #!=( diferente )
 #len( Informa o número de caracteres ).
-#Parâmetro ( O que está entre parênteses)
-#Argumento ( A função definida para o parâmetro)
+#Parâmetro ( O que está entre parênteses) ( Uma variável na definição da função )
+#Argumento ( A função definida para o parâmetro) ( é o dado que você passa durante a chamada da função )
 # String ( Palavras entre aspas)
 # inteiros ( números inteiros, positivos e negativos )
 # float ( números racionais, que tem vírgulas )
