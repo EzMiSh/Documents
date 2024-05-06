@@ -35,5 +35,24 @@ Agora, como exemplo, podemos criar uma função simples de soma com dois parâme
 # inteiros ( números inteiros, positivos e negativos )
 # float ( números racionais, que tem vírgulas )
 # variável ( palavra a ser especificado um argumento/ parâmetro)
-
+# módulo ( arquivos do python)
+# Script é um texto com uma série de instruções escritas para serem seguidas, ou por pessoas em peças teatrais ou programas televisivos, ou executadas por um programa de computador. 
+# Função é um bloco de código que realiza uma tarefa específica.
+# Classe ( Classes, em Python, são como moldes que nos permitem criar objetos. Esses objetos, então, podem conter dados (atributos) e funcionalidades (métodos). O uso de classes facilita a organização do código, tornando-o mais modular, reutilizável e fácil de entender).
+# Main ( Isso quer dizer que, estamos executando o arquivo de forma direta, ou seja, abrimos o arquivo e estamos executando ele. Dessa forma a variável __name__ recebe o valor __main__. No entanto, quando importamos esse arquivos e executamos através de um segundo arquivo, essa variável recebe outra informação. Então ao fazer a comparação de __name__ = “__main__” ela será falsa e, portanto, não vai executar o conteúdo dessa estrutura.Por esse motivo quando executamos o código diretamente no arquivo ele lê todo o conteúdo da estrutura e quando executamos através da importação do arquivo ele não lê o que está na estrutura. Dessa forma o valor atribuído a variável __name__ é diferente de “__main__”! Isso é interessante quando você vai fazer algum teste no seu arquivo principal, mas não quer que ele seja executado em arquivos secundários, então pode colocar alguma função que só funcione no arquivo principal). 
+# Lista ( Uma lista começa com um colchete de abertura e termina com um colchete de fechamento, [ ] . Os valores dentro da lista também são chamados de itens . Os itens são separados por vírgulas (ou seja, são delimitados por vírgulas ). 
+# Em vez de usar a técnica range(len( someList )) com um loop for para obter o índice inteiro dos itens na lista, você pode chamar a função enumerate() . Em cada iterajção do loop, enumerate() retornará dois valores: o índice do item na lista e o item na própria lista.
+# Uma técnica comum do Python é usar range(len( someList )) com um loop for para iterar sobre os índices de uma lista.
+#Atribuição múltipla (tecnicamente chamado de descompactação de tupla ) é um atalho que permite atribuir múltiplas variáveis com os valores em uma lista em uma linha de código.
+# Métodos ( Um método é a mesma coisa que uma função, exceto que é “chamado” por um valor. Por exemplo, se um valor de lista fosse armazenado em spam , você chamaria o método de lista index() nessa lista da seguinte forma: spam.index('hello') . A parte do método vem depois do valor, separada por um ponto). 
+# Adicionando valores a listas com os métodos append() e insert(). Para adicionar novos valores a uma lista, use os métodos append() e insert(). ok ok
+spam = ['gato', 'cachorro', 'morcego']
+spam.append('alce')
+spam. spam = ['gato', 'cachorro', 'morcego']
+spam.insert(1, 'galinha' )
+spam. name = 'Zophie a cat'
+newName = name[0:7] + 'the' + name[8:12]
+name
+# Tuplas ( O tipo de dados tupla é quase idêntico ao tipo de dados lista, exceto de duas maneiras. Primeiro, as tuplas são digitadas com parênteses, ( e ) , em vez de colchetes, [ e ] . Mas a principal diferença entre as tuplas e as listas é que as tuplas, assim como as strings, são imutáveis. As tuplas não podem ter seus valores modificados, acrescentados ou removidos). 
+#As referências são particularmente importantes para entender como os argumentos são passados para as funções. Quando uma função é chamada, os valores dos argumentos são copiados para as variáveis dos parâmetros. Para listas (e dicionários), isso significa que uma cópia da referência é usada para o parâmetro.
 
