@@ -35,3 +35,5 @@ Agora, como exemplo, podemos criar uma função simples de soma com dois parâme
 # inteiros ( números inteiros, positivos e negativos )
 # float ( números racionais, que tem vírgulas )
 # variável ( palavra a ser especificado um argumento/ parâmetro)
+
+
