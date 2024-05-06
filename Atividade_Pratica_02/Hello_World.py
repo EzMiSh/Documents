@@ -60,3 +60,5 @@ name
 #.copy(),  deepcopy(): Python fornece um módulo chamado copy que fornece as funções copy() e deepcopy() . O primeiro deles, copy.copy() , pode ser usado para fazer uma cópia duplicada de um valor mutável como uma lista ou dicionário, não apenas uma cópia de uma referência.
 #Dicionário: Os índices para dicionários são chamados de chaves, e uma chave com seu valor associado é chamada de par chave-valor . No código, um dicionário é digitado entre chaves, {} .
 #Quando você usa os métodos keys() , valus() e items() , um loop for pode iterar sobre as chaves, valores ou pares de valores-chave em um dicionário, respectivamente. Observe que os valores no valor dict_items retornado pelo método items() são tuplas da chave e do valor.
+# chave é a chave do dicionário que desejamos acessar
+# valor_padrao é o valor que será retornado caso a chave não seja encontrada (opcional)
