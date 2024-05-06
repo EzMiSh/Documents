@@ -27,6 +27,6 @@ almoxarifado['Brita'] += concretos_usadas // 2
 almoxarifado['Viga'] += ferros_usadas // 2
 almoxarifado['Cimento'] += min(calcarios_usados, argilas_usadas)
 
-print('\nQuantidade restante no almoxarifado apos uso em obras e ctransformacao dos materiais:')
+print('\nQuantidade restante no almoxarifado apos uso em obras e transformação dos materiais:')
 for item, quantidade in almoxarifado.items():
     print(f'{item}: {quantidade}')
